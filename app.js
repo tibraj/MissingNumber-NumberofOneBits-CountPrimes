@@ -4,6 +4,12 @@ function missingNumber(nums) {
 }
 
 //Number of One Bits
+function numberOfOneBits(n) {
+    return n.toString(2).split('').filter(x => x === '1').length;
+}
+
+
+
 
 //Count Primes
 const countPrimes = (n, count = 0, array =[]) => {
